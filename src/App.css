@@ -1,6 +1,5 @@
-.header{
+.header {
   background-color: transparent !important;
-  
 }
 
 .mdl-layout__header-row {
@@ -36,6 +35,10 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.landing-grid h1, h2 {
+  font-size: 70px;
 }
 
 /* Resume Page css */
@@ -78,7 +81,6 @@
 }
 
 .social-links {
-  width: 100%;
   margin: auto;
   text-align: center;
 }
