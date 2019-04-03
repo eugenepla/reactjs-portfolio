@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Animation from './animation'
+import Jump from 'react-reveal/Jump';
+import Animation from './animation';
+import Footer from './footer';
 
 class Landing extends Component {
 
@@ -9,6 +11,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <Animation className='animation'/>
+            <Jump>
             <div className="social-links">
               <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-linkedin-square" aria-hidden="true" />
@@ -22,6 +25,8 @@ class Landing extends Component {
                 <i className="fa fa-free-code-camp" aria-hidden="true" />
               </a>
           </div>
+          </Jump>
+          <Footer/>
           </Cell>
         </Grid>
     )
