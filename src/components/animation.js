@@ -43,7 +43,7 @@ export default class Animation extends Component {
           }}>
             <ProgressText
               text={'Eugene Plahotnikov'}
-              placeholderTextColor={'rgba(116, 84, 106, 0.4)'}
+              placeholderTextColor={'white'}
               progressTextColor={'#0B032D'}
               renderText={(props, text) => <h2 {...props}>{text}</h2>}
               progress={progress}
@@ -54,7 +54,7 @@ export default class Animation extends Component {
           }}>
             <ProgressText
               text={'Beginner JavaScript Developer'}
-              placeholderTextColor={'rgba(128, 128, 128, 0.25)'}
+              placeholderTextColor={'white'}
               progressTextColor={'#0B032D'}
               renderText={(props, text) => <h1 {...props}>{text}</h1>}
               progress={progress}

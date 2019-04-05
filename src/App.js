@@ -23,9 +23,9 @@ class App extends Component {
        <Layout fixedHeader>
           <Header hideSpacer className="header" seamed scroll>
               <Navigation className="navigation">
-                <NavLink exact to="/" activeStyle={{color: 'darkgrey'}} className="link" >Main</NavLink>
-                <NavLink exact to="/resume" activeStyle={{color: 'darkgrey'}} className="link">Resume</NavLink>
-                <NavLink exact to="/aboutme" activeStyle={{color: 'darkgrey'}} className="link">About</NavLink>
+                <NavLink exact to="/" activeClassName="active" activeStyle={{color:"#0B032D"}} className="link" >Main</NavLink>
+                <NavLink exact to="/resume" activeStyle={{color:"#0B032D"}} className="link">Resume</NavLink>
+                <NavLink exact to="/aboutme" activeStyle={{color:"#0B032D"}} className="link">About</NavLink>
               </Navigation>
           </Header>
           <Switch>
