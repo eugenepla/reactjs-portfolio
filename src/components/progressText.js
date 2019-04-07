@@ -20,7 +20,7 @@ export default class ProgressText extends Component {
 
   static defaultProps = {
     springOptions: {},
-    progress: 0
+    progress: 0,
   }
 
   render() {
@@ -36,9 +36,7 @@ export default class ProgressText extends Component {
     const textStyle = {
       overflow: 'hidden',
       whiteSpace: 'nowrap',
-      pointerEvents: 'none'
     };
-
     const _renderText = renderText ?
       renderText :
       (props, text) => <h1 {...props}>{text}</h1>;

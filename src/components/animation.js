@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import LineAnimate from './lineAnimation';
 import ProgressText from './progressText';
 
+
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 60vh;
 `;
 
 export default class Animation extends Component {
@@ -20,14 +16,11 @@ export default class Animation extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      this.setState({ progress: 33 });
-    }, 0);
-    setTimeout(() => {
-      this.setState({ progress: 67 });
-    }, 800);
+      this.setState({ progress: 41 });
+    }, 1000);
     setTimeout(() => {
       this.setState({ progress: 100 });
-    }, 1600);
+    }, 2200);
   }
 
   render() {
@@ -38,36 +31,15 @@ export default class Animation extends Component {
       <div>
         <Container>
         <div style={{
+            top: '-10px',
             textAlign: 'center',
             position: 'relative'
           }}>
             <ProgressText
-              text={'Eugene Plahotnikov'}
+              text={'Eugene Plahotnikov. Beginner JavaScript Developer'}
               placeholderTextColor={'white'}
               progressTextColor={'#0B032D'}
-              renderText={(props, text) => <h2 {...props}>{text}</h2>}
-              progress={progress}
-              springOptions={springOptions}/>
-          <div style={{
-            textAlign: 'center',
-            position: 'relative'
-          }}>
-            <ProgressText
-              text={'Beginner JavaScript Developer'}
-              placeholderTextColor={'white'}
-              progressTextColor={'#0B032D'}
-              renderText={(props, text) => <h1 {...props}>{text}</h1>}
-              progress={progress}
-              springOptions={springOptions}/>
-          </div>
-            <LineAnimate
-              style={{
-                position: 'absolute',
-                bottom: -5,
-                left: '28.95%'
-              }}
-              placeholderStrokeColor={'rgba(116, 84, 106, 0.4)'}
-              progressStrokeColor={'#0B032D'}
+              renderText={(props, text) => <h4 {...props}>{text}</h4>}
               progress={progress}
               springOptions={springOptions}/>
           </div>

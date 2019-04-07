@@ -1,31 +1,38 @@
 .header {
-  background-color: transparent !important;
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
 }
 
-.mdl-layout__header-row {
-  justify-content: flex-end; 
+.header .links-div {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .link {
-  color:  white;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  color:  black;
   font-weight: bolder !important;
-  font-size: 20px !important;
+  font-size: 16px !important;
   text-transform: uppercase;
-  line-height: 100% !important;
 }
 
 .active:hover::after {
-  content: '';
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #0B032D;
+  background-color: green;
   transform: scale(0); 
   transition: all .5s;
 }
 
 .active:visited::after {
-  background-color: #0B032D;
+  background-color: green;
 }
 
 .link::after {
@@ -33,7 +40,7 @@
   display: block;
   width: 100%;
   height: 1px;
-  background-color: white;
+  background-color: black;
   transform: scale(0); 
   transition: all .5s;
 }
@@ -42,20 +49,19 @@
   transform: scale(1);
 }
 
-.landing-grid  {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.landing-grid {
+  padding: 0px !important; 
+  padding-left: 300px !important;
+  padding-right: 300px !important;
 }
 
-.landing-grid h1, h2 {
-  font-size: 70px;
+.animation h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  color: #1f0c70;
   padding: 2em;
 }
 
@@ -65,13 +71,15 @@
 }
 
 .social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 20px;
-  color: #0B032D;
+  color: #1f0c70;
+  font-size: 2.5em;
+  padding: 10px;
 }
 
-.author-name {
-  margin: 4%;
-  text-align: center;
+/* Resume Button css */
+
+.button-body {
+  display: flex;
+  justify-content: center;
 }
+
