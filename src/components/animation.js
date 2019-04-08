@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import ProgressText from './progressText';
 
-
 const Container = styled.div`
+  minWidth: 600px;
 `;
 
 export default class Animation extends Component {
@@ -37,7 +37,7 @@ export default class Animation extends Component {
           }}>
             <ProgressText
               text={'Eugene Plahotnikov. Beginner JavaScript Developer'}
-              placeholderTextColor={'white'}
+              placeholderTextColor={'	transparent'}
               progressTextColor={'#0B032D'}
               renderText={(props, text) => <h4 {...props}>{text}</h4>}
               progress={progress}

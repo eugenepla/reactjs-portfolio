@@ -1,20 +1,11 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import React from 'react';
 
-class Experience extends Component {
-  render() {
+export default function Experience(props) {
     return(
-      <Grid>
-        <Cell col={4}>
-          <h5>{this.props.workTime}</h5>
-        </Cell>
-        <Cell col={8}>
-          <h4 style={{marginTop:'0px'}}>{this.props.jobName}</h4>
-          <p>{this.props.jobDescription}</p>
-        </Cell>
-      </Grid>
+      <div>
+          <h5>{props.start} - {props.end}</h5>
+          <h4 style={{marginTop:'0px'}}>{props.jobName}</h4>
+          <p>{props.jobDescription}</p>
+      </div>    
     )
   }
-}
-
-export default Experience;

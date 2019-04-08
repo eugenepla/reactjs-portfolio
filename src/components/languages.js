@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Education(props) {
+export default function Languages(props) {
     return(
       <div>
           <h5>{props.start} - {props.end}</h5>
@@ -9,4 +9,3 @@ export default function Education(props) {
       </div>    
     )
   }
-

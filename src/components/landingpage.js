@@ -35,6 +35,7 @@ class Landing extends Component {
           </div>
           <Animation className='animation'/>
           </Cell>
+          <Resume/>
         </Grid>
     )
   }
