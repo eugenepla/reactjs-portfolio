@@ -12,55 +12,61 @@ export default function Resume(props) {
         <Grid>
           <Cell col={6}>
 
-        <h3 style={{color: '#1f0c70'}}>Experience</h3>
-        <hr style={{borderTop: '2px solid black'}} />
-
+        <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>EXPERIENCE</h4>
+        <hr style={{borderTop: '3px solid black', marginTop: '0px'}} />
         <Experience
-        start={'1'}
-        end={'2'}
-        jobName="Trainee JavaScript Developer"
+        workTime={'3 Monthes'}
+        workLocation={'Kharkiv'}
+        jobName="Intern JavaScript Developer"
         jobDescription="We created api for trucking industry. I used es6, React, Axios,
                         Semantic-UI. I understood how work in team with SCRUM
                         methodology, how to work with git (bitbucket). Got a little experience
                         with Redux, improved knowledge of Linux Ubuntu)."
         />
+        <hr style={{borderTop: 'dotted 1px'}} />
 
-        <h3>Skills</h3>
-        <hr style={{borderTop: '2px solid black'}} /> 
+
+        <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>SKILLS</h4>
+        <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
               <Skills
                 skill="javascript"
                 progress={100}
                 />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
+              <Skills
+                skill="HTML/CSS"
+                progress={80}
                   />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
-         
+              <Skills
+                skill="NodeJS"
+                progress={50}
+                />
+              <Skills
+                skill="React"
+                progress={25}
+                /> 
+        <hr style={{borderTop: 'dotted 1px'}} />        
           </Cell>
+          <Cell col={1}/>
 
 
-          <Cell className="resume-right-col" col={6}>
-            <h3>Education</h3>
-            <hr style={{borderTop: '2px solid black'}} /> 
-
+          <Cell col={5}>
+            <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>EDUCATION</h4>
+            <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
             <Education
-              start={2002}
-              end={2006}
-              schoolName="My IT-climb Full-Stack JavaScript Course"
+              studyTime={'3 Monthes'}
+              schoolName="IT-climb JavaScript Course"
               schoolDescription="I started to learn JavaScript with simulation of SCRUM real-project."
                />
+            <hr style={{borderTop: 'dotted 1px'}} />
 
+
+            <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>LANGUAGES</h4>
+            <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
             <Languages 
-
-            />   
+              native={'Ukrainian, Russian'}
+              foreign={'English'}
+            />  
+            <hr style={{borderTop: 'dotted 1px'}} /> 
 
           </Cell>
         </Grid>
