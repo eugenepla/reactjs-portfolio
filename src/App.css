@@ -73,7 +73,17 @@
   padding: 10px;
 }
 
-.leftSocial i {
-  font-size: 2em;
-  
+.topSocial {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.bottomSocial {
+  display: flex;
+  justify-content: center;
+}
+
+.mdl-cell {
+  margin: 0 auto !important;
 }

@@ -8,3 +8,8 @@ body {
   height: 100vh;
 }
 
+p {
+  margin-bottom: 0px !important;
+  line-height: 22px !important;
+}
+

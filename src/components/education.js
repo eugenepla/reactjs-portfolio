@@ -1,13 +1,28 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Container = styled.div` 
+  display: flex;
+`;
+
+const H5 = styled.h5`
+  color: #1f0c70;
+  margin-top: 10px;
+  margin-bottom: 15px;
+`;
+
+const WorkTimeP = styled.p`
+  margin-left: 6px;
+`;
 
 export default function Education(props) {
     return(
       <div>
-          <h5 style={{color: '#1f0c70', marginTop: '10px', marginBottom:'15px'}}>{props.schoolName}</h5>
-        <div>
+          <H5>{props.schoolName}</H5>
+        <Container>
           <i className="fa fa-calendar" aria-hidden="true" />
-          <h7 style={{margin:'10px'}}>{props.studyTime}</h7>
-        </div>
+          <WorkTimeP>{props.studyTime}</WorkTimeP>
+        </Container>
           <p style={{marginTop: '10px'}}>{props.schoolDescription}</p>
       </div>    
     )

@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import ProgressText from './progressText';
-
-const Container = styled.div`
-  minWidth: 600px;
-`;
 
 export default class Animation extends Component {
   constructor(props) {
@@ -28,22 +23,33 @@ export default class Animation extends Component {
     const { progress } = this.state;
 
     return (
-      <div>
-        <Container>
+      <div style={{marginBottom: '-15px'}}>
         <div style={{
-            top: '-10px',
+            top: '-5px',
             textAlign: 'center',
             position: 'relative'
           }}>
             <ProgressText
-              text={'Eugene Plahotnikov. Beginner JavaScript Developer'}
+              text={'Eugene Plahotnikov'}
               placeholderTextColor={'	transparent'}
               progressTextColor={'#0B032D'}
               renderText={(props, text) => <h4 {...props}>{text}</h4>}
               progress={progress}
               springOptions={springOptions}/>
           </div>
-        </Container>
+          <div style={{
+            top: '-15px',
+            textAlign: 'center',
+            position: 'relative'
+          }}>
+            <ProgressText
+              text={'Beginner JavaScript Developer'}
+              placeholderTextColor={'	transparent'}
+              progressTextColor={'#0B032D'}
+              renderText={(props, text) => <h4 {...props}>{text}</h4>}
+              progress={progress}
+              springOptions={springOptions}/>
+          </div>
       </div>
     );
   }

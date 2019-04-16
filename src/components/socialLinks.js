@@ -1,23 +1,25 @@
 import React from 'react';
-import {Grid, Cell} from 'react-mdl';
+import {Cell} from 'react-mdl';
 
 export default function socialLinks(props) {
     return (
-        <Grid className="social-links">  
-              <Cell col={6} className='leftSocial'>
+      <div className='social-links'>
 
+              <Cell col={12} className='topSocial'>
+                
               <div className='phone-mail-div'>
                 <i className="fa fa-phone" aria-hidden="true" />
-                <h7>+380662575199</h7>
-                <i className="fa fa-envelope" aria-hidden="true" />
-                <h7>plahotnikovvv@gmail.com</h7>
-                <i className="fa fa-map-marker" aria-hidden="true" />
-                <h7>Kharkiv, Ukraine</h7>
+                <h6 style={{fontSize: '15px'}}>+380662575199</h6>
 
+                <i className="fa fa-envelope" aria-hidden="true" />
+                <h6 style={{fontSize: '15px'}}>plahotnikovvv@gmail.com</h6>
+                
+                <i className="fa fa-map-marker" aria-hidden="true" />
+                <h6 style={{fontSize: '15px'}}>Kharkiv, Ukraine</h6>
               </div>
               </Cell>
 
-              <Cell col={6} className='rightSocial'>
+              <Cell col={12} className='bottomSocial'>
 
               <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-github" aria-hidden="true" />
@@ -32,6 +34,6 @@ export default function socialLinks(props) {
               </a>
 
               </Cell>
-          </Grid>
+      </div>        
     );
 };
