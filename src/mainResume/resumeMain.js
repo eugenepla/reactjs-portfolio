@@ -30,11 +30,24 @@ export default class Resume extends Component {
 
         <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>SKILLS</h4>
         <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
-          <Skills/>
-     
-          </Cell>
-          <Cell col={1}/>
-          <Cell col={5}>
+        {data.skills && data.skills.map((item)=>{
+          return(
+        <Skills
+        jobExpTitle={item.jobExpTitle}
+        jobTechnologies={item.jobTechnologies}
+        jobTechLevel={item.jobTechLevel}
+        noCommercialTitle={item.noCommercialTitle}
+        noCommercialTechs={item.noCommercialTechs}
+        noCommercialTechLevel={item.noCommercialTechLevel}
+        moreSkillsTitle={item.moreSkillsTitle}
+        moreSkillsTechs={item.moreSkillsTechs}
+        moreSkillsLevel={item.moreSkillsLevel}
+        />)
+        })}
+        </Cell>
+          
+        <Cell col={1}/>
+        <Cell col={5}>
 
         <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>EDUCATION</h4>
         <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
@@ -51,11 +64,14 @@ export default class Resume extends Component {
 
         <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>LANGUAGES</h4>
         <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
+          {data.languages && data.languages.map((item)=>{
+            return(
           <Languages 
-          native={'Ukrainian, Russian'}
-          foreign={'English'}
-          />  
-          <hr style={{borderTop: 'dotted 1px'}} /> 
+          native={item.native}
+          foreign={item.foreign}
+          />)
+          })}
+        <hr style={{borderTop: 'dotted 1px'}} /> 
 
           </Cell>
         </Grid>

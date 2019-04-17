@@ -1,4 +1,5 @@
 let data = {
+    "avatar": "https://i.ibb.co/yYggBQb/avatar.jpg",
     "experience": [{
       "workTime": "3 Monthes",
       "workLocation": "Kharkiv",
@@ -9,6 +10,21 @@ let data = {
       "studyTime": "3 Monthes",
       "schoolName": "IT-climb JavaScript Course",
       "schoolDescription": "I started to learn JavaScript with simulation of SCRUM real-project."
+    }],
+    "skills": [{
+      "jobExpTitle": "Job experience:",
+      "jobTechnologies": "JavaScript, React.js, React-UI, HTML/CSS",
+      "jobTechLevel": "upper-beginner level",
+      "noCommercialTitle": "No commercial experience:",
+      "noCommercialTechs": "Node.js(Express.js), MongoDB(mongoose), Webpack",
+      "noCommercialTechLevel": "beginner level",
+      "moreSkillsTitle": "More skills:",
+      "moreSkillsTechs": "Git(github, bitbucket), robo3t, Linux(Ubuntu)",
+      "moreSkillsLevel": "upper-beginner level"
+    }],
+    "languages": [{
+        "native": "Ukrainian, Russian",
+        "foreign": "English"
     }]
 }
 

@@ -21,19 +21,19 @@ const P = styled.p`
 export default function Skills(props) {
     return(
       <div>
-          <H5>Job experience:</H5>
-          <H6>JavaScript, React.js, React-UI, HTML/CSS</H6>
-          <P>upper-beginner level</P>
+          <H5>{props.jobExpTitle}</H5>
+          <H6>{props.jobTechnologies}</H6>
+          <P>{props.jobTechLevel}</P>
           <hr style={{borderTop: 'dotted 1px'}} />
 
-          <H5>No commercial experience:</H5>
-          <H6>Node.js(Express.js), MongoDB(mongoose), Webpack</H6>
-          <P>beginner level</P>
+          <H5>{props.noCommercialTitle}</H5>
+          <H6>{props.noCommercialTechs}</H6>
+          <P>{props.noCommercialTechLevel}</P>
           <hr style={{borderTop: 'dotted 1px'}} />
 
-          <H5>More skills:</H5>
-          <H6>Git(github, bitbucket), robo3t, Linux(Ubuntu)</H6>
-          <P>upper-beginner level</P>
+          <H5>{props.moreSkillsTitle}</H5>
+          <H6>{props.moreSkillsTechs}</H6>
+          <P>{props.moreSkillsLevel}</P>
           <hr style={{borderTop: 'dotted 1px'}} />
       </div>
     )

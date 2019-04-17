@@ -11,13 +11,13 @@ const IMG = styled.img`
   padding-top: 20px;
 `
 
-export default function Avatar() {
+export default function Avatar(props) {
     return (
         <Container>
         <IMG
-              src="https://i.ibb.co/yYggBQb/avatar.jpg"
-              alt="avatar"
-              />
+            src={props.avatar}
+            alt="avatar"
+            />
         </Container>
     );
 }
