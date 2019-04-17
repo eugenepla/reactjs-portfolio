@@ -8,7 +8,7 @@ export default class Landing extends Component {
   render() {
     return(
         <Grid className="landing-grid">
-          <ResumeHeader data={data}/>>
+          <ResumeHeader data={data}/>
           <ResumeMain data={data}/>
         </Grid>
     )

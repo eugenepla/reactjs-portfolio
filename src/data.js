@@ -13,10 +13,10 @@ let data = {
     }],
     "skills": [{
       "jobExpTitle": "Job experience:",
-      "jobTechnologies": "JavaScript, React.js, React-UI, HTML/CSS",
+      "jobTechnologies": "JavaScript, React.js, React-UI, Webpack, HTML/CSS",
       "jobTechLevel": "upper-beginner level",
-      "noCommercialTitle": "No commercial experience:",
-      "noCommercialTechs": "Node.js(Express.js), MongoDB(mongoose), Webpack",
+      "noCommercialTitle": "Non commercial experience:",
+      "noCommercialTechs": "Node.js(Express.js), MongoDB(mongoose)",
       "noCommercialTechLevel": "beginner level",
       "moreSkillsTitle": "More skills:",
       "moreSkillsTechs": "Git(github, bitbucket), robo3t, Linux(Ubuntu)",
@@ -32,7 +32,7 @@ let data = {
         "homeLocation": "Kharkiv",
         "facebook": "https://www.facebook.com/profile.php?id=100007864248531",
         "github": "https://github.com/eugenepla",
-        "skype": "svetlanovich3"
+        "skype": "skype:svetlanovich3"
     }]
 }
 
