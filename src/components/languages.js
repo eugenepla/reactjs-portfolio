@@ -13,18 +13,18 @@ export default function Languages(props) {
         </Cell>
         <Cell col={6}>
          <div style={{display: 'flex', justifyContent:'center', height: '50%'}}>
-            <Circle size='x-large' color='blue'/>
-            <Circle size='x-large' color='blue'/>
-            <Circle size='x-large' color='blue'/>
-            <Circle size='x-large' color='blue'/>
-            <Circle size='x-large' color='blue'/>
+            <Circle size='x-large' color='blue' marginTop='150%'/>
+            <Circle size='x-large' color='blue' marginTop='150%'/>
+            <Circle size='x-large' color='blue' marginTop='150%'/>
+            <Circle size='x-large' color='blue' marginTop='150%'/>
+            <Circle size='x-large' color='blue' marginTop='150%'/>  
          </div>
          <div style={{display: 'flex', justifyContent:'center', height: '50%'}}>
-            <Circle size='x-large' color='blue'/>
-            <Circle size='x-large' color='blue'/>
-            <Circle size='x-large'/>
-            <Circle size='x-large'/>
-            <Circle size='x-large'/>
+            <Circle size='x-large' color='blue' marginTop='150%'/>
+            <Circle size='x-large' color='blue' marginTop='150%'/>
+            <Circle size='x-large' marginTop='150%'/>
+            <Circle size='x-large' marginTop='150%'/>
+            <Circle size='x-large' marginTop='150%'/>
          </div>
         </Cell>  
       </Grid> 

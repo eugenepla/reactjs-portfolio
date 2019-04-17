@@ -21,30 +21,15 @@ export default function Resume(props) {
         jobDescription="We created api for trucking industry. I used es6, React, Axios,
                         Semantic-UI. I understood how work in team with SCRUM
                         methodology, how to work with git (bitbucket). Got a little experience
-                        with Redux, improved knowledge of Linux Ubuntu)."
+                        with Redux, improved knowledge of Linux (Ubuntu)."
         />
         <hr style={{borderTop: 'dotted 1px'}} />
 
 
         <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>SKILLS</h4>
         <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-              <Skills
-                skill="HTML/CSS"
-                progress={80}
-                  />
-              <Skills
-                skill="NodeJS"
-                progress={50}
-                />
-              <Skills
-                skill="React"
-                progress={25}
-                /> 
-        <hr style={{borderTop: 'dotted 1px'}} />        
+              <Skills/>
+     
           </Cell>
           <Cell col={1}/>
 
