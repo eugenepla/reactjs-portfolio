@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Khula');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 
 body {
   margin: 0;
@@ -13,3 +14,6 @@ p {
   line-height: 22px !important;
 }
 
+h3 {
+  font-family: 'Patua One', cursive !important; 
+}

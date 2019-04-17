@@ -39,7 +39,7 @@ export default class ProgressText extends Component {
     };
     const _renderText = renderText ?
       renderText :
-      (props, text) => <h1 {...props}>{text}</h1>;
+      (props, text) => <h4 {...props}>{text}</h4>;
 
     return (
       <ProgressTextDiv color={placeholderTextColor}>

@@ -34,7 +34,7 @@ export default class Animation extends Component {
               text={'Eugene Plahotnikov'}
               placeholderTextColor={'	transparent'}
               progressTextColor={'#0B032D'}
-              renderText={(props, text) => <h4 {...props}>{text}</h4>}
+              renderText={(props, text) => <h3 {...props}>{text}</h3>}
               progress={progress}
               springOptions={springOptions}/>
           </div>
@@ -47,7 +47,7 @@ export default class Animation extends Component {
               text={'Beginner JavaScript Developer'}
               placeholderTextColor={'	transparent'}
               progressTextColor={'#0B032D'}
-              renderText={(props, text) => <h4 {...props}>{text}</h4>}
+              renderText={(props, text) => <h3 {...props}>{text}</h3>}
               progress={progress}
               springOptions={springOptions}/>
           </div>

@@ -13,7 +13,17 @@ export default class resumeHeader extends Component {
               avatar={data.avatar}
               /> 
               <Animation className='animation'/>
-              <SocialLinks/>
+              {data.social && data.social.map((item)=>{
+                return(
+              <SocialLinks 
+              phoneNumber={item.phoneNumber}
+              email={item.email}
+              homeLocation={item.homeLocation}
+              facebook={item.facebook}
+              github={item.github}
+              skype={item.skype}
+              />)
+            })}
             </Cell>  
         );
     }

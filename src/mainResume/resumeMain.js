@@ -51,14 +51,14 @@ export default class Resume extends Component {
 
         <h4 style={{fontWeight: "bolder", marginBottom: '5px'}}>EDUCATION</h4>
         <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
-          {data.education && data.education.map((item)=>{
+        {data.education && data.education.map((item)=>{
             return(
-          <Education
+        <Education
           studyTime={item.studyTime}
           schoolName={item.schoolName}
           schoolDescription={item.schoolDescription}
-          />)
-          })}
+        />)
+        })}
         <hr style={{borderTop: 'dotted 1px'}} />
 
 
@@ -66,11 +66,11 @@ export default class Resume extends Component {
         <hr style={{borderTop: '3px solid black', marginTop: '0px'}} /> 
           {data.languages && data.languages.map((item)=>{
             return(
-          <Languages 
+        <Languages 
           native={item.native}
           foreign={item.foreign}
-          />)
-          })}
+        />)
+        })}
         <hr style={{borderTop: 'dotted 1px'}} /> 
 
           </Cell>

@@ -24,7 +24,15 @@ let data = {
     }],
     "languages": [{
         "native": "Ukrainian, Russian",
-        "foreign": "English"
+        "foreign": "English"      
+    }],
+    "social": [{
+        "phoneNumber": "+38(066)257-51-99",
+        "email": "plahotnikovvv@gmail.com",
+        "homeLocation": "Kharkiv",
+        "facebook": "https://www.facebook.com/profile.php?id=100007864248531",
+        "github": "https://github.com/eugenepla",
+        "skype": "svetlanovich3"
     }]
 }
 
