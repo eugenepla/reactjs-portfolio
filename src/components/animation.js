@@ -25,6 +25,7 @@ export default class Animation extends Component {
     return (
       <div style={{marginBottom: '-15px'}}>
         <div style={{
+            height: '50px',
             top: '-5px',
             textAlign: 'center',
             position: 'relative'

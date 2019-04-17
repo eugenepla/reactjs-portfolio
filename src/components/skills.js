@@ -33,7 +33,7 @@ export default function Skills(props) {
 
           <H5>More skills:</H5>
           <H6>Git(github, bitbucket), robo3t, Linux(Ubuntu)</H6>
-          <P>upper beginner level</P>
+          <P>upper-beginner level</P>
           <hr style={{borderTop: 'dotted 1px'}} />
       </div>
     )
