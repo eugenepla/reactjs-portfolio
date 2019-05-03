@@ -31,7 +31,7 @@ export default class Animation extends Component {
             position: 'relative'
           }}>
             <ProgressText
-              text={'Eugene Plahotnikov'}
+              text={'Eugene Plakhotnikov'}
               placeholderTextColor={'	transparent'}
               progressTextColor={'#0B032D'}
               renderText={(props, text) => <h3 {...props}>{text}</h3>}
