@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Grid } from 'react-mdl';
-import ResumeHeader from './headerResume/resumeHeader';
-import ResumeMain from './mainResume/resumeMain';
-import data from './data';
+import ResumeHeader from '../headerResume/resumeHeader';
+import ResumeMain from '../mainResume/resumeMain';
+
+import data from '../data';
 
 export default class Landing extends Component {
   render() {

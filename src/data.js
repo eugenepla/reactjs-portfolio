@@ -16,7 +16,7 @@ let data = {
       "jobTechnologies": "JavaScript, React.js, React-UI, Webpack, HTML/CSS",
       "jobTechLevel": "upper-beginner level",
       "noCommercialTitle": "Non commercial experience:",
-      "noCommercialTechs": "Node.js(Express.js), MongoDB(mongoose)",
+      "noCommercialTechs": "React Native, Node.js(Express.js), MongoDB(mongoose)",
       "noCommercialTechLevel": "beginner level",
       "moreSkillsTitle": "More skills:",
       "moreSkillsTechs": "Git(github, bitbucket), robo3t, Linux(Ubuntu)",

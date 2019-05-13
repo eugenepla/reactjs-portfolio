@@ -15,8 +15,6 @@ const WorkTimeP = styled.p`
   margin-left: 6px;
 `;
 
-const 
-
 export default function Education(props) {
     return(
       <div>

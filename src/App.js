@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import {NavLink, Switch, Route } from 'react-router-dom';
 
-import LandingPage from './components/landingpage';
-import AboutMe from './components/aboutme';
+import LandingPage from './layouts/landingpage';
+import AboutMe from './layouts/aboutme';
 
 class App extends Component {
 
