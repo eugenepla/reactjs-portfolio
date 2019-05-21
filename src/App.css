@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
 .landing-grid {
   padding: 0px !important; 
   width: 940px;
@@ -89,4 +91,26 @@
 
 .fa {
   font-size: 18px;
+}
+
+.mdl-tabs__tab-bar {
+  border-bottom: 0px !important;
+}
+
+.mdl-tabs__tab {
+  font-weight: 600 !important;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  color: slateblue !important;
+}
+
+.mdl-card__actions.mdl-card--border {
+  border-top: 0px solid rgba(0, 0, 0, 0.1) !important; 
+}
+
+.mdl-card__title-text {
+  font-size: 24px !important;
+  font-family: 'Tajawal', sans-serif !important;
+  font-weight: 600 !important;
 }

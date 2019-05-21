@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import styled from 'styled-components';
+import React, {Component} from 'react'
+import styled from 'styled-components'
 
 const Circle = styled.i`
   color: ${({color}) => color};
@@ -8,13 +8,13 @@ const Circle = styled.i`
 `
 
 export default class langCircles extends Component {
-    render() {
-    const {color, size, marginTop} = this.props;
+  render() {
+    const {color, size, marginTop} = this.props
 
     return (
-        <div>
-          <Circle className="fa fa-circle" aria-hidden="true" color={color} fontSize={size} marginTop={marginTop}></Circle>      
-        </div>
-    );
-};
+      <div>
+        <Circle className="fa fa-circle" aria-hidden="true" color={color} fontSize={size} marginTop={marginTop} />      
+      </div>
+    )
+  }
 }

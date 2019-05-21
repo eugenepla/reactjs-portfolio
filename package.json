@@ -19,5 +19,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-equimper": "^2.2.2"
   }
 }
