@@ -14,7 +14,7 @@ class Projects extends Component {
         <div className="projects-grid" style={{paddingTop: '35px'}}>
           <Card shadow={5} style={{width: '350px', margin: 'auto'}}>
             <img style={{height: '300px' }} src="https://i.ibb.co/FB79hsz/merge-from-ofoct.jpg" />
-            <CardTitle style={{paddingBottom: '0px'}}>Music player test-task</CardTitle>
+            <CardTitle style={{paddingBottom: '0px'}}>Music player demo</CardTitle>
             <CardActions border>
               <a href='https://github.com/eugenepla/ReactNative-MusicPlayer' rel="noopener noreferrer" target="_blank">
                 <i style={{fontSize: '30px', color: 'slateblue', paddingTop: '3px', paddingLeft: '10px'}} className="fa fa-github" aria-hidden="true" />
