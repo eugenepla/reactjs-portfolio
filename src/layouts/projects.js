@@ -16,11 +16,9 @@ class Projects extends Component {
             <img style={{height: '300px' }} src="https://i.ibb.co/FB79hsz/merge-from-ofoct.jpg" />
             <CardTitle style={{paddingBottom: '0px'}}>Music player test-task</CardTitle>
             <CardActions border>
-              <Button colored>
-                <a href='https://github.com/eugenepla/ReactNative-MusicPlayer' rel="noopener noreferrer" target="_blank">
-                  <i style={{fontSize: '30px', color: 'slateblue', paddingTop: '3px'}} className="fa fa-github" aria-hidden="true" />
-                </a>
-              </Button>
+              <a href='https://github.com/eugenepla/ReactNative-MusicPlayer' rel="noopener noreferrer" target="_blank">
+                <i style={{fontSize: '30px', color: 'slateblue', paddingTop: '3px', paddingLeft: '10px'}} className="fa fa-github" aria-hidden="true" />
+              </a>
             </CardActions>
             <CardMenu style={{color: 'blue'}} />
           </Card>
@@ -33,11 +31,9 @@ class Projects extends Component {
             <img style={{height: '300px'}} src="https://i.ibb.co/4dtyCLw/photo-2019-05-21-13-29-38.jpg" />
             <CardTitle style={{paddingBottom: '0px'}}>Portfolio project</CardTitle>
             <CardActions border>
-              <Button colored>
-                <a href='https://github.com/eugenepla/react-portfolio' rel="noopener noreferrer" target="_blank">
-                  <i style={{fontSize: '30px', color: 'slateblue', paddingTop: '3px'}} className="fa fa-github" aria-hidden="true" />
-                </a>
-              </Button>
+              <a href='https://github.com/eugenepla/react-portfolio' rel="noopener noreferrer" target="_blank">
+                <i style={{fontSize: '30px', color: 'slateblue', paddingTop: '3px', paddingLeft: '10px'}} className="fa fa-github" aria-hidden="true" />
+              </a>
             </CardActions>
             <CardMenu style={{color: 'blue'}} />
           </Card>
