@@ -11,13 +11,16 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid">
+        <div className="projects-grid" style={{paddingTop: '35px'}}>
           <Card shadow={5} style={{width: '350px', margin: 'auto'}}>
             <img style={{height: '300px' }} src="https://i.ibb.co/FB79hsz/merge-from-ofoct.jpg" />
             <CardTitle style={{paddingBottom: '0px'}}>Music player test-task</CardTitle>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored>
+                <a href='https://github.com/eugenepla/ReactNative-MusicPlayer' rel="noopener noreferrer" target="_blank">
+                  <i style={{fontSize: '30px', color: 'slateblue', paddingTop: '3px'}} className="fa fa-github" aria-hidden="true" />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{color: 'blue'}} />
           </Card>
@@ -25,13 +28,16 @@ class Projects extends Component {
       )
     } else if (this.state.activeTab === 1) {
       return (
-        <div className="projects-grid">
+        <div className="projects-grid" style={{paddingTop: '35px'}}>
           <Card shadow={5} style={{width: '350px', margin: 'auto'}}>
             <img style={{height: '300px'}} src="https://i.ibb.co/4dtyCLw/photo-2019-05-21-13-29-38.jpg" />
-            <CardTitle style={{paddingBottom: '0px'}}>This portfolio project</CardTitle>
+            <CardTitle style={{paddingBottom: '0px'}}>Portfolio project</CardTitle>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored>
+                <a href='https://github.com/eugenepla/react-portfolio' rel="noopener noreferrer" target="_blank">
+                  <i style={{fontSize: '30px', color: 'slateblue', paddingTop: '3px'}} className="fa fa-github" aria-hidden="true" />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{color: 'blue'}} />
           </Card>
@@ -41,7 +47,7 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div style={{marginTop: '10px'}}>
+      <div style={{marginTop: '20px'}}>
         <Tabs onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>React Native</Tab>
           <Tab>React</Tab>
