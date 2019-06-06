@@ -13,10 +13,10 @@ const data = {
   }],
   skills: [{
     jobExpTitle: 'Job experience:',
-    jobTechnologies: 'JavaScript, React.js, React-UI, Webpack, HTML/CSS',
+    jobTechnologies: 'JavaScript, React.js, React-UI, HTML/CSS',
     jobTechLevel: 'upper-beginner level',
     noCommercialTitle: 'Non commercial experience:',
-    noCommercialTechs: 'React Native, Express.js, MongoDB(mongoose)',
+    noCommercialTechs: 'React Native, Express.js, MongoDB(mongoose), Webpack',
     noCommercialTechLevel: 'beginner level',
     moreSkillsTitle: 'More skills:',
     moreSkillsTechs: 'Git(github, bitbucket), robo3t, Linux(Ubuntu)',
