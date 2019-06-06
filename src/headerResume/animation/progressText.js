@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import { Motion, spring } from 'react-motion';
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import { Motion, spring } from 'react-motion'
 
 const ProgressTextDiv = styled.div`
   position: relative;
   display: inline-block;
   color: ${({color}) => color};
-`;
+`
 
 const ProgressDiv = styled.div`
   position: absolute;
@@ -14,13 +14,12 @@ const ProgressDiv = styled.div`
   left: 0;
   right: 0;
   color: ${({color}) => color};
-`;
+`
 
 export default class ProgressText extends Component {
-
   static defaultProps = {
     springOptions: {},
-    progress: 0,
+    progress: 0
   }
 
   render() {
@@ -31,22 +30,21 @@ export default class ProgressText extends Component {
       text,
       placeholderTextColor,
       progressTextColor
-    } = this.props;
+    } = this.props
 
     const textStyle = {
       overflow: 'hidden',
-      whiteSpace: 'nowrap',
-    };
-    const _renderText = renderText ?
-      renderText :
-      (props, text) => <h4 {...props}>{text}</h4>;
+      whiteSpace: 'nowrap'
+    }
+    const _renderText = renderText || (props, text) => <h4 {...props}>{text}</h4>;
 
     return (
       <ProgressTextDiv color={placeholderTextColor}>
         {_renderText({}, text)}
         <ProgressDiv color={progressTextColor}>
           <Motion
-            style={{ width: spring(progress, springOptions) }}>
+            style={{ width: spring(progress, springOptions) }}
+          >
             {({ width }) =>
               _renderText({ style: {
                 ...textStyle,
@@ -56,6 +54,6 @@ export default class ProgressText extends Component {
           </Motion>
         </ProgressDiv>
       </ProgressTextDiv>
-    );
+    )
   }
 }
