@@ -36,7 +36,9 @@ export default class ProgressText extends Component {
       overflow: 'hidden',
       whiteSpace: 'nowrap'
     }
-    const _renderText = renderText || (props, text) => <h4 {...props}>{text}</h4>;
+
+    // eslint-disable-next-line no-unneeded-ternary
+    const _renderText = renderText ? renderText : (props, text) => <h4 {...props}>{text}</h4>
 
     return (
       <ProgressTextDiv color={placeholderTextColor}>
