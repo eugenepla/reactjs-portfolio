@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 const Container = styled.div`
   display: flex;
@@ -12,12 +12,12 @@ const IMG = styled.img`
 `
 
 export default function Avatar(props) {
-    return (
-        <Container>
-        <IMG
-            src={props.avatar}
-            alt="avatar"
-            />
-        </Container>
-    );
+  return (
+    <Container>
+      <IMG
+        src={props.avatar}
+        alt="avatar"
+      />
+    </Container>
+  )
 }

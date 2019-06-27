@@ -27,7 +27,7 @@ const data = {
     foreign: 'English'      
   }],
   social: [{
-    phoneNumber: '+38(066)257-51-99',
+    phoneNumber: '+38(050)758-15-54',
     email: 'plahotnikovvv@gmail.com',
     homeLocation: 'Kharkiv',
     facebook: 'https://www.facebook.com/profile.php?id=100007864248531',
